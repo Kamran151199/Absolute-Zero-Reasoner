@@ -25,14 +25,12 @@ wheels/
 venv/
 env/
 ENV/
-.env
 .venv
 env.bak/
 venv.bak/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 .project
@@ -71,8 +69,6 @@ coverage.xml
 dmypy.json
 
 # Environments
-.env
-.env.*
 
 # OS generated files
 .DS_Store
@@ -106,3 +102,5 @@ code_generation_lite/*
 v*_*/*
 data/dapo*/*
 uploads/*
+config.bat
+node_modules
